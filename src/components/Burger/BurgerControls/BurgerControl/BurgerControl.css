@@ -1,0 +1,26 @@
+.text-white button:disabled {
+    background-color: #AC9980;
+    border: 1px solid #7E7365;
+    color: #ccc;
+    cursor: default;
+}
+
+.text-white button:hover:disabled {
+    background-color: #AC9980;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.burger-control {
+    width:25%;
+}
+
+@media only screen and (max-width:900px) {
+    .burger-control {
+        width:55%;
+    }
+    .text-white {
+        display: flex;
+        margin-left:1rem;
+    }
+}

@@ -1,0 +1,13 @@
+.navigation-items {
+    display:flex;
+}
+
+@media only screen and (max-width:600px) {
+    .navigation-items {
+        flex-direction: column;
+        width:100%;
+        text-align: center;
+        margin-top:2rem;
+        height:100%;
+    }
+}

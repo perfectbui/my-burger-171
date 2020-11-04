@@ -1,0 +1,29 @@
+.side-drawer {
+    position:fixed;
+    z-index: 500;
+    top:0;
+    left:0;
+    height:100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    transition:transform 0.3s ease-out;
+}
+
+@media only screen and (min-width:600px) {
+    .side-drawer{
+        display:none;
+    }
+}
+
+.open {
+    transform:translateX(0);
+}
+
+.close {
+    transform:translateX(-100%);
+}
+
+

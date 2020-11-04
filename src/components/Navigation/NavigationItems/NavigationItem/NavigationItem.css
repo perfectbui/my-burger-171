@@ -1,0 +1,25 @@
+.my-class {
+    background-color: #945ab8;
+    color:white;
+    border-bottom: 4px lightskyblue solid;
+}
+
+.navigation-item {
+    height:3rem;
+    display:flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.navigation-item:hover{
+    background-color: rosybrown;
+}
+
+@media only screen and (max-width:600px) {
+    .navigation-item {
+        margin:0;
+        margin-top:1rem;
+        width:100%;
+        cursor: pointer;
+    }
+}
