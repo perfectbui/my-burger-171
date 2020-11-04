@@ -30,7 +30,7 @@ const burgerControls = (props) => {
         disabled={props.disablePurchase}
         onClick={props.order}
       >
-       {props.isAuth ? 'ORDER NOW':'SIGN UP TO ORDER'}
+       {props.isAuth ? 'ORDER NOW':'SIGN IN TO ORDER'}
       </button>
     </div>
   );
