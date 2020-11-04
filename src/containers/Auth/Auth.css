@@ -10,7 +10,7 @@
 
 .btn-submit {
     outline: none;
-    font-weight: bold;
+    font-weight: bold; 
     background-color: #f2e850;
     padding:0.3rem 0.6rem;
     border: black solid 1px;
